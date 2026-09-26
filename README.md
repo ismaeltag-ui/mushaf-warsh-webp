@@ -57,3 +57,16 @@ d'al-Azraq), numérisé sur Internet Archive sous l'identifiant
 mention de licence. L'œuvre est celle de Dar al-Maarifah ; ce dépôt n'en
 revendique aucun droit et se borne à en proposer un ré-encodage destiné à un
 usage personnel de mémorisation.
+
+## Le dossier `madani/` : une autre édition
+
+Ce dossier héberge, faute d'un dépôt à part, les 604 pages du **mushaf de Médine
+classique (1405)**, calligraphie d'Uthman Taha, telles que Quran.com les a dessinées
+à partir des polices QCF V1 du Complexe du Roi Fahd et que Quran for Android les
+sert (`files.quran.app/hafs/madani`, largeur 1920). Elles n'ont rien à voir avec
+le Warsh de Dar al-Maarifah ci-dessus.
+
+Ce qui a été fait : fond rendu transparent (l'application pose le papier), pages 1
+et 2 recentrées verticalement, 256 couleurs, WebP sans perte. Le script est
+`scripts/build-madani-mushaf.py` dans le dépôt de l'application ; la question des
+droits est traitée au §7 de son `LICENCES.md`.
