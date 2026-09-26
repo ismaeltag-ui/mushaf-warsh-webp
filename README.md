@@ -29,11 +29,16 @@ pied de page compris. Chaque page a été :
    même sur les 604 pages — le scan vient d'un original numérique ;
 2. **calée** sur le cadre 1340 × 1890 des pages Hafs, en cherchant la
    transformation qui fait coïncider les profils d'encre des deux éditions ;
-3. **teintée** de la couleur de papier de l'application (`#FBF7EC`), pour que les
-   masques posés par la Mémorisation s'y fondent sans laisser de rectangle ;
-4. encodée en **WebP qualité 88**. Le sans-perte n'aurait conservé que le bruit du
-   JPEG d'origine — 546 Ko la page contre 268, pour un écart moyen de 1,7 niveau
-   sur 255, invisible.
+3. **détourée de son papier** (depuis le 26 septembre 2026) : le fond est
+   transparent, et c'est l'application qui pose le papier dessous, dans la teinte
+   choisie — ivoire le jour, anthracite la nuit. Chaque pixel est lu comme une
+   encre posée sur du blanc avec l'opacité la plus faible qui explique sa couleur,
+   si bien que les bords des lettres restent doux sur n'importe quel fond. Les
+   pages étaient jusque-là teintées en `#FBF7EC`, le beige d'alors, et faisaient
+   un rectangle visible sur tout autre fond ;
+4. quantifiée à **256 couleurs** puis encodée en **WebP sans perte**, comme les
+   pages Hafs : 134 Mo pour les 604 pages (166 Mo avant), pour un écart moyen de
+   deux niveaux sur 255, invisible au zoom.
 
 Les deux pages d'ouverture, entièrement encadrées d'enluminures, sont calées
 autrement : sur leurs bandes de texte, appariées à celles du Hafs.
